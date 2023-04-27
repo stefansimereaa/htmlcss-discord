@@ -60,7 +60,7 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 900px ;
+    width: 1000px ;
     margin-top: 10px;
     
 }
@@ -71,17 +71,17 @@ header{
     height: 50px;
 }
 .link{
-    width: 500px;
+    width: 600px;
     padding:  10px 10px;
     text-align: center;
     color: white;
     display: flex;
     flex-direction: row;
 }
-ul {
+.header-list {
     list-style-type: none;
 }
-li{
+.header-element{
     display: inline-block;
 }
 a{
@@ -256,25 +256,62 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px 10px;
+    padding: 20px 20px;
 }
 .footer-med-content{
-    background-color: var(--footer-med-content);
     height: 350px;
     width: 300px;
-    border: dashed black;
-}
-.footer-small-content{
-    background-color: var(--footer-small-content);
-    height: 350px;
-    width: 100px;
-    border: dashed white;
-}
-.line-footer{
-    background-color: white;
-    height: 2px;
 }
 
+.footer-title-med {
+    color: #8fa1e1;
+    font-size: 30px;
+    padding: 20px 0px;
+}
+
+.footer-title{
+    color: #8fa1e1;
+}
+.language{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+h4{
+    padding: 10px;
+}
+
+.socials{
+    color: white;
+    margin-top: 20px;
+}
+i{
+    padding: 10px;
+}
+
+.footer-small-content{
+    height: 350px;
+    width: 150px;
+    color: white;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 5px;
+}
+
+.line-footer{
+    background-color: #8fa1e1;
+    height: 2px;
+    width: 1000px;
+    margin: 0 auto;
+}
 
 .last-content-footer{
     display: flex;
@@ -285,8 +322,7 @@ footer{
 }
 
 .content{
-    width: 700px;
-    background-color: var(--content);
+    width: 1000px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -294,16 +330,14 @@ footer{
     height: 100px;
 }
 .logo-footer{
-    border: dashed black;
-    background-color: var(--footer-med-content);
     width: 100px;
     height: 30px;
     padding: 0 10px;
 }
-.button-footer{
-    border: dashed black;
-    background-color: var(--footer-med-content);
+.button-pink-footer{
     width: 100px;
     height: 30px;
     padding: 0 10px;
+    background-color: #8fa1e1;
+    color: white;
 }
