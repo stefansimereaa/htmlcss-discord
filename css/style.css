@@ -23,14 +23,19 @@
 
 /* Generics */
 body{
-    font-family: sans-serif;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+
+
+/*Navbar */
 
 header{
     background-color: var(--Header-background);
     height: 650px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-image:url(../img/jumbo.png);
     background-size: cover;
     flex-wrap: wrap;
@@ -89,8 +94,7 @@ button{
 
 
 
-
-
+/*Navbar content*/
 
 
 .nav-content{
@@ -102,10 +106,10 @@ button{
     color: white;
     height: 400px;
     width: 700px;
-    text-align: justify;
 }
 p{
-    padding: 20px;
+    padding: 30px;
+    line-height: 30px;
 }
 .buttons-nav{
     display: flex;
@@ -124,6 +128,13 @@ p{
     color: white;
     width: 300px;
 }
+
+
+
+
+
+
+
 
 
 
