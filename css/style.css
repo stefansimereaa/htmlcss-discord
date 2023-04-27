@@ -115,6 +115,7 @@ button{
 p{
     padding: 30px;
     line-height: 30px;
+    text-align: center;
 }
 .buttons-nav{
     display: flex;
